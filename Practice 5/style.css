@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.restaurant{
+    width: 350px;
+    height: 355px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px lightgray;
+    padding: 10px;
+    margin: 30px auto;
+}
+.restaurant .img-box{
+    width: 100%;
+    position: relative;
+}
+.restaurant .img-box img{
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.offer{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    padding: 0 7px;
+    left: 0;
+    bottom: 30px;
+}
+.promoted{
+    background-color: rgba(0, 0, 0, 0.414);
+    width: 67px;
+    padding: 2px 3px;
+    color: whitesmoke;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+}
+.time{
+    background-color: rgba(255, 255, 255, 0.816);
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    padding: 0px 7px;
+    border-radius: 4px;
+}
+.name{
+   font-weight: 500;
+   font-size: 18px;
+}
+p{
+    color: rgb(27, 27, 27);
+    padding: 5px 0;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+hr{
+    margin: 5px 0;
+    border: 0.5px solid rgb(223, 222, 222);
+}
+.restaurant span{
+    color: grey;
+    font-size: 13px;
+    position: absolute;
+}
+.img-fast{
+    width: 75px;
+    margin-right: 10px;
+}
